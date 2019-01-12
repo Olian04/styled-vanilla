@@ -3,18 +3,18 @@
 
 ```js
 const myBtn = styled.button`
-	color: ${args => args.inverted ? 'skyblue' : 'orangered'};
+  color: ${args => args.inverted ? 'skyblue' : 'orangered'};
   height: 30px;
   margin-right: 5px;
   
   &:active {
-  	color: ${args => args.inverted ? 'orangered' : 'skyblue'};
+    color: ${args => args.inverted ? 'orangered' : 'skyblue'};
   }
   &::before {
-  	content: '--> '
+    content: '--> '
   }
   &::after {
-  	content: ' <--'
+    content: ' <--'
   }
 `;
 
