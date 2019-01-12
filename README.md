@@ -36,4 +36,5 @@ document.body.append(styles);
 ## WIP
 
 Props demo: https://jsfiddle.net/sk5m3egr/69/
-Psudo selector demo: https://jsfiddle.net/sk5m3egr/186/
+
+Psuedo selector demo: https://jsfiddle.net/sk5m3egr/186/
