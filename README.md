@@ -1,5 +1,5 @@
 # styled-vanilla
-Styled elements without react
+[Styled components](https://www.styled-components.com/) without react
 
 ```js
 const myBtn = styled.button`
