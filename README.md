@@ -3,24 +3,24 @@
 
 ```js
 const myBtn = styled.button`
-  color: orangered;
+	color: ${args => args.inverted ? 'skyblue' : 'orangered'};
   height: 30px;
   margin-right: 5px;
   
   &:active {
-  	color: skyblue;
+  	color: ${args => args.inverted ? 'orangered' : 'skyblue'};
   }
   &::before {
-  	content: '--> ';
+  	content: '--> '
   }
   &::after {
-  	content: ' <--';
+  	content: ' <--'
   }
 `;
 
 
 const elem1 = myBtn();
-const elem2 = myBtn();
+const elem2 = myBtn({ inverted: true });
 
 elem1.innerText = 'Click me!';
 elem2.innerText = 'Click me!';
