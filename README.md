@@ -3,7 +3,7 @@ Styled elements without react
 
 ```js
 const myBtn = styled.button`
-	color: orangered;
+  color: orangered;
   height: 30px;
   margin-right: 5px;
   
