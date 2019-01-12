@@ -11,10 +11,10 @@ const myBtn = styled.button`
   	color: skyblue;
   }
   &::before {
-  	content: '--> '
+  	content: '--> ';
   }
   &::after {
-  	content: ' <--'
+  	content: ' <--';
   }
 `;
 
