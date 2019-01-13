@@ -2,7 +2,7 @@
 [Styled components](https://www.styled-components.com/) without react
 
 ```js
-const myBtn = styled.button`
+const Button = styled.button`
   color: ${args => args.inverted ? 'skyblue' : 'orangered'};
   height: 30px;
   margin-right: 5px;
@@ -19,8 +19,8 @@ const myBtn = styled.button`
 `;
 
 
-const elem1 = myBtn();
-const elem2 = myBtn({ inverted: true });
+const elem1 = Button();
+const elem2 = Button({ inverted: true });
 
 elem1.innerText = 'Click me!';
 elem2.innerText = 'Click me!';
