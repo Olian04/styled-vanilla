@@ -2,9 +2,10 @@
 [Styled components](https://www.styled-components.com/) without react
 
 ```js
+const height = 30;
 const Button = styled.button`
   color: ${args => args.inverted ? 'skyblue' : 'orangered'};
-  height: 30px;
+  height: ${height}px;
   margin-right: 5px;
   
   &:active {
