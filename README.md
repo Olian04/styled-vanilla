@@ -35,7 +35,7 @@ document.body.append(styles);
 
 ## WIP
 
-Props + Psuedo selector [(Typescript demo)][1] demo: https://jsfiddle.net/y9doga8n/10/
+Props + Psuedo selector [(Typescript demo)][1] demo: https://jsfiddle.net/5t6x73np/1/
 
 ~~Props demo: https://jsfiddle.net/sk5m3egr/69/~~
 
