@@ -1,0 +1,41 @@
+{
+  "name": "styled-vanilla",
+  "version": "1.0.0",
+  "description": "Styled components without react",
+  "main": "dist/node/index.js",
+  "types": "dist/node/index.d.ts",
+  "typings": "dist/node/index.d.ts",
+  "scripts": {
+    "prepublishOnly": "npm run build",
+    "build": "npm run build:web && npm run build:node",
+    "build:web": "rollup --config",
+    "build:node": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Olian04/styled-vanilla.git"
+  },
+  "keywords": [
+    "styled",
+    "components",
+    "vanilla",
+    "dom",
+    "styled",
+    "components",
+    "element",
+    "html"
+  ],
+  "author": "Olian04",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Olian04/styled-vanilla/issues"
+  },
+  "homepage": "https://github.com/Olian04/styled-vanilla#readme",
+  "devDependencies": {
+    "@types/typescript": "^2.0.0",
+    "rollup": "^1.1.2",
+    "rollup-plugin-typescript": "^1.0.0",
+    "tslib": "^1.9.3",
+    "typescript": "^3.3.1"
+  }
+}

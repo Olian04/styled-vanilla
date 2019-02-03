@@ -2,6 +2,7 @@
 [Styled components](https://www.styled-components.com/) without react
 
 ```js
+const { styled } = require('styled-vanilla');
 const Button = styled.button`
   color: ${args => args.inverted ? 'skyblue' : 'orangered'};
   height: 30px;
