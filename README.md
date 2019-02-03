@@ -1,6 +1,18 @@
 # styled-vanilla
 [Styled components](https://www.styled-components.com/) without react
 
+# Installation
+
+__NPM:__
+
+[`npm install styled-vanilla`](https://www.npmjs.com/package/styled-vanilla)
+
+__CDN:__
+
+```html
+<script src="https://unpkg.com/styled-vanilla/web/index.js"></script>
+```
+
 ```js
 const { styled } = require('styled-vanilla');
 const Button = styled.button`
