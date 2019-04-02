@@ -1,5 +1,5 @@
 # styled-vanilla
-[Styled components](https://www.styled-components.com/) without reacts
+[Styled components](https://www.styled-components.com/) without react.
 
 ```js
 const { styled } = require('styled-vanilla');
