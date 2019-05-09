@@ -12,10 +12,10 @@ const Button = styled.button`
     color: ${args => args.inverted ? 'orangered' : 'skyblue'};
   }
   &::before {
-    content: '--> '
+    content: '--> ';
   }
   &::after {
-    content: ' <--'
+    content: ' <--';
   }
 `;
 
